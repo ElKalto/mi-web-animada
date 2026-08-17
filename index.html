@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Web Animada</title>
+  </head>
+  <body>
+    <div class="viewport">
+      <div class="snap-container">
+
+        <section class="snap-section hero">
+          <h1 class="hero-title">Diseño con movimiento</h1>
+          <p class="hero-sub">Scroll suave, animaciones limpias.</p>
+        </section>
+
+        <section class="snap-section horizontal-wrapper">
+          <div class="horizontal-track">
+            <div class="h-panel" data-bg="1">
+              <h2>Panel 01</h2>
+              <p>El fondo cambia a medida que avanzas.</p>
+            </div>
+            <div class="h-panel" data-bg="2">
+              <h2>Panel 02</h2>
+              <p>Cada sección tiene su propio color.</p>
+            </div>
+            <div class="h-panel" data-bg="3">
+              <h2>Panel 03</h2>
+              <p>Un toque de rueda, un panel.</p>
+            </div>
+            <div class="h-panel" data-bg="4">
+              <h2>Panel 04</h2>
+              <p>Al terminar, sigue a la siguiente sección.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="snap-section farm-scene">
+          <div class="farm-inner">
+            <img class="farm-bg" src="/farm/fondo.png" alt="Granja" />
+            <img class="farm-el farm-nube1" src="/farm/nube1.png" alt="" />
+            <img class="farm-el farm-nube2" src="/farm/nube2.png" alt="" />
+            <img class="farm-el farm-nube3" src="/farm/nube3.png" alt="" />
+            <img class="farm-el farm-nube4" src="/farm/nube4.png" alt="" />
+            <img class="farm-el farm-humo" src="/farm/humo.png" alt="" />
+            <img class="farm-el farm-veleta" src="/farm/veleta.png" alt="" />
+            <img class="farm-el farm-oveja1" src="/farm/oveja1.png" alt="" />
+            <img class="farm-el farm-oveja2" src="/farm/oveja2.png" alt="" />
+            <img class="farm-el farm-oveja3" src="/farm/oveja3.png" alt="" />
+            <img class="farm-el farm-gallo" src="/farm/gallo.png" alt="" />
+            <img class="farm-el farm-gallina1" src="/farm/gallina1.png" alt="" />
+            <img class="farm-el farm-gallina2" src="/farm/gallina2.png" alt="" />
+            <img class="farm-el farm-gallina3" src="/farm/gallina3.png" alt="" />
+            <img class="farm-el farm-gallina4" src="/farm/gallina4.png" alt="" />
+            <img class="farm-el farm-gallina5" src="/farm/gallina5.png" alt="" />
+            <img class="farm-el farm-perru" src="/farm/perru.png" alt="" />
+          </div>
+        </section>
+
+        <section class="snap-section panel">
+          <h2>Sección 1</h2>
+          <p>Contenido de la primera sección.</p>
+        </section>
+
+        <section class="snap-section panel">
+          <h2>Sección 2</h2>
+          <p>Contenido de la segunda sección.</p>
+        </section>
+
+        <section class="snap-section panel">
+          <h2>Sección 3</h2>
+          <p>Contenido de la tercera sección.</p>
+        </section>
+
+      </div>
+</div>
+
+    <div class="nav-line" aria-hidden="true">
+      <svg viewBox="0 0 220 400" width="90" height="164">
+        <path class="nav-line-guide"  d="M30,20 L30,100 L90,100 L150,100 L200,100 L200,180 L200,260 L200,340 L200,390" />
+        <path class="nav-line-active" d="M30,20 L30,100 L90,100 L150,100 L200,100 L200,180 L200,260 L200,340 L200,390" />
+      </svg>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
